@@ -1,0 +1,72 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# ======================
+# Virtual Environment
+# ======================
+venv/
+ENV/
+env/
+.venv/
+
+# ======================
+# Jupyter Notebooks
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# IDE / Editors
+# ======================
+.vscode/
+.idea/
+*.swp
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ======================
+# Data & Datasets
+# ======================
+data/*.csv
+data/*.zip
+data/*.gz
+data/*.tar
+data/*.h5
+data/*.npy
+data/*.npz
+
+# Ignore large TFDS / EMNIST cache
+~/.tensorflow_datasets/
+tensorflow_datasets/
+emnist/
+
+# ======================
+# Models / Checkpoints
+# ======================
+*.h5
+*.hdf5
+*.ckpt
+checkpoints/
+saved_models/
+
+# ======================
+# Reports / Outputs
+# ======================
+*.pdf
+*.csv
+*.xlsx
+*.docx
+*.txt
+outputs/
+results/
